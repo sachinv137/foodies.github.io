@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+}
+.header-custom #navbar-collapse ul li a{
+    padding:1em 30px;
+}
+.header-custom #navbar-collapse ul li button{
+margin:.5em 30px;
+padding: .375rem 1.8rem;
+background-color:#0556a2;
+border-color:#0556a2;
+border-radius: 20px;
+}
+.header-custom .navbar-light .navbar-brand {
+    color: rgb(5, 86, 162);
+    font-size: 33px;
+    font-weight: 700;
+}
+main .bg-image{
+    background:url(../images/banner.jpg);
+    min-height: 630px;
+    background-size: cover;
+    position:relative;
+}
+main .bg-image .content{
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width: 900px;
+    min-width:900px;
+}
+main .bg-image .content h1{font-size:54px;text-align: center;font-family: 'Playfair Display', serif;}
+main .bg-image .content p{
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 17px;
+}
+main .bg-image .content .search-box{
+    max-width: 520px;
+    min-width: 520px;
+    text-align: center;
+    margin: 0 auto;
+}
+main .bg-image .content .search-box .input-group input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+main .bg-image .content .search-box .input-group .input-group-append button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:#26c9ff;
+    border-color:#26c9ff;
+    padding: .375rem 1rem;
+}
+.section01 {
+    padding: 40px 0px;
+}
+
+.section02 {
+    background: #ebebeb;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.section03 {
+    padding: 40px 0px;
+    padding-bottom: 70px!important;
+}
+.section01 .heading h2, .section02 .heading h2, .section03 .heading h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.section01 .div-section01{
+    max-width: 750px;
+    text-align: center;
+    min-width: 750px;
+    margin: 0 auto;
+}
+.section01 .div-section01 .tab-class{
+    margin-top:35px;
+    margin-bottom:35px;
+}
+.section01 .div-section01 .tab-class .project-tab .nav.nav-tabs.nav-fill{
+    border-bottom:none;
+}
+.section01 .div-section01 .tab-class .project-tab .nav.nav-tabs.nav-fill .nav-item.nav-link.active{
+    background-color: #26c9ff;
+    color: #fff;
+    border-radius: 20px;
+}
+.section01 .div-section01 .tab-class .project-tab .nav.nav-tabs.nav-fill .nav-item.nav-link{
+    width: 220px;
+    flex: none;
+    margin: 0 auto;
+    border-color: #26c9ff;
+    border-radius: 20px;
+}
+.section01 .div-section01 .tab-class .project-tab .nav.nav-tabs.nav-fill .nav-item{color:#000;}
+.section01 .div-section01 .tab-class .project-tab  .tab-content .tab-pane ul{
+position:relative; list-style:none;
+}
+.section01 .div-section01 .tab-class .project-tab  .tab-content{
+    padding-top:40px;
+}
+.section01 .div-section01 .tab-class .project-tab  .tab-content .tab-pane ul li{
+  text-align: left;
+    font-size: 12px;
+    list-style-position: inside;
+}
+.section01 .div-section01 .tab-class .project-tab  .tab-content .tab-pane ul li::before{
+    content: "\2022";
+    color: #26c9ff;
+    font-weight: bold;
+    font-size: 17px;
+    padding-right: 12px;
+}
+ div.special > div[class*="col-"] {padding: 0; }
+
+ .div-section02 .item .space{
+     padding-top:30px; padding-bottom:30px;
+ }
+ .div-section02 .item  .detail .title{
+     font-weight:600;
+ }
+
+.div-section02 .item .detail span:first-child, .div-section02 .item .detail .abstarct span:first-child,.div-section02 .item .detail .des{
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+.div-section02 .item .detail .abstarct span:first-child{display:block;}
+.div-section02 .item .detail .abstarct span:last-child, .div-section02 .item .detail .abstarct span:last-child a{
+    font-size:12px;
+}
+.div-section02 .item .detail .abstarct span:last-child a{
+    color:#26c9ff;
+}
+ .owl-theme .owl-dots {
+    display: none;
+}
+.owl-nav button span{
+    font-size: 35px;
+}
+.owl-nav button:focus{outline:none;}
+.div-section02 .owl-theme .owl-nav [class*=owl-]:hover{
+color: #000;
+    background-color: transparent;
+}
+.section03 .div-section03{ text-align:center;padding-top: 35px;
+max-width: 800px;
+    margin: 0 auto;
+    min-width: 800px;
+}
+.section03 .div-section03 .t1{
+    padding-top: 20px;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+.section03 .div-section03 .t2{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.section03 .div-section03 .bn .btn.btn-primary{
+    border-radius:20px;
+    background-color:#26c9ff;
+    border-color:#26c9ff;
+    color:#000;
+    font-weight:600;
+}
+.section04 {
+    padding: 40px 0px;
+    background:#000;
+    color:gray;
+    padding-bottom: 20px;
+}
+.section04 .f1{
+    color:gray;
+    font-size:35px;
+    padding-bottom:20px;
+    font-weight:700;
+    font-family: 'Playfair Display', serif;
+}
+.section04 .f2{padding-bottom:10px; font-weight: 600;}
+.section04 .f3{text-align:justify;}
+.section04 .linkk{
+    font-weight: 600;
+    padding-bottom: 23px;
+}
+.section04 .space01{padding-top:55px;}
+.section04 .link-action a{
+text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+.section04 .link-action p{
+    margin-bottom: 10px;
+}
+.section04 .social ul{
+    margin:0; padding:0;
+}
+.section04 .social ul li{
+    list-style-type:none; display:inline-block; width:25%;
+}
+.section04 .social ul li+li{
+    margin-left:-4px;
+}
+.section04 .social{
+    margin-top: 20px;
+    max-width: 150px;
+}
+.section04 .social .fa-facebook-f{
+cursor:pointer; color:#1368af;
+}
+.section04 .social .fa-twitter{
+cursor:pointer; color:#26c9ff;
+}
+.section04 .social  .fa-youtube{
+cursor:pointer; color:red;
+}
+.section04 .social .fa-linkedin-in{
+cursor:pointer;
+}
+.section04 .link-action.act p span{
+    padding-right: 8px;
+}
+.section04 .link-action.act p.p{font-size:15px;}
+.section04 hr{
+    border-top: 1px solid #d6d4d4;
+}
+.section04 .pr span a{color:gray; text-decoration:none;}
+.section04 .pr span{padding: 0 10px;}
